@@ -17,13 +17,19 @@ overflow-x: hidden;
 }
 
 header {
-background-color: paleturquoise;
+background-color: rgb(51, 134, 134);
 height: auto;
-padding: 20px;
+padding: 30px;
 margin: 0px;
 
 }
 
+
+main {
+width: 100;
+padding: 30px 100px;
+box-sizing: "border-box";
+}
 /* ids */
 
 
