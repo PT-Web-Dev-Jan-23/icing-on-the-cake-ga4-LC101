@@ -12,6 +12,7 @@ height: 100vh;
 margin: 0px;
 padding: 0px;
 overflow-x: hidden;
+font-family: 'IBM Plex Mono', monospace;
 }
 
 header {
@@ -20,6 +21,7 @@ color:rgb(206, 94, 141);
 height: auto;
 padding: 30px;
 margin: 0px;
+font-family: 'IBM Plex Mono', monospace;
 }
 
 
@@ -27,6 +29,7 @@ main {
 width: 100;
 padding: 30px 100px;
 box-sizing: "border-box";
+font-family: 'IBM Plex Mono', monospace;
 }
 
 footer {
@@ -35,12 +38,14 @@ color:rgb(51, 134, 134);
 text-align: center;
 padding: 20px;
 margin: 0px;
+font-family: 'IBM Plex Mono', monospace;
 }
 
 h1{
     font-size:3.5rem;
     font-weight:10px;
     margin:0px;
+    font-family: 'Unica One', cursive;
 }
 
 h2{
@@ -48,12 +53,14 @@ h2{
     font-weight:10px;
     margin:0px;
     text-transform: uppercase;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 h3{
     font-size:1.5rem;
     font-weight:10px;
     margin:0px;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 p{
@@ -84,7 +91,25 @@ color:rgb(6, 72, 78);
 
 
 /* ids */
+#page-title{
+    color:rgb(197, 115, 149);
+    text-align: center;
+}
 
+#tagline{
+    color: rgb(235, 166, 198);
+    text-align: center;
+    margin: 0px;
+}
 
+#intro{
+    font-style: italic;
+    margin: 20px;
+}
 
 /* classes */
+.right{
+    float: right;
+    margin-left: 20px;
+}
+
