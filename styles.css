@@ -12,16 +12,14 @@ height: 100vh;
 margin: 0px;
 padding: 0px;
 overflow-x: hidden;
-
-
 }
 
 header {
 background-color: rgb(51, 134, 134);
+color:rgb(206, 94, 141);
 height: auto;
 padding: 30px;
 margin: 0px;
-
 }
 
 
@@ -29,6 +27,33 @@ main {
 width: 100;
 padding: 30px 100px;
 box-sizing: "border-box";
+}
+
+footer {
+background-color: rgb(206, 94, 141);
+color:rgb(51, 134, 134);
+text-align: center;
+padding: 20px;
+margin: 0px;
+}
+
+h1{
+    font-size:3.5rem;
+    font-weight:10px;
+    margin:0px;
+}
+
+h2{
+    font-size:2rem;
+    font-weight:10px;
+    margin:0px;
+    text-transform: uppercase;
+}
+
+h3{
+    font-size:1.5rem;
+    font-weight:10px;
+    margin:0px;
 }
 /* ids */
 
